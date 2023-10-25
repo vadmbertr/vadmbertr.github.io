@@ -1,0 +1,15 @@
+<head>
+    <title>Vadim BERTRAND</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+
+<object data="{{ page.pdf_path }}" type="application/pdf" style="width: 100vw; height: 100vh;">
+    <embed src="{{ page.pdf_path }}">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="{{ page.pdf_path }}">Download PDF</a>.
+    </embed>
+</object>
